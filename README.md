@@ -1,46 +1,20 @@
 # 🌞 Daylit — Your Personal Daily Dashboard
 
 **Daylit** is a minimalist personal dashboard built with Flask.  
-It helps you stay emotionally aware, focused, and organized — all in one place.
+Stay emotionally aware, focused, and organized — all in one place.
 
-Track your **mood**, manage **to-dos**, check the **weather**, and get inspired with a **daily quote** — all in a calm, clean interface designed for clarity and presence.
-
----
-
-## ✨ Features
-
-- 🌤️ **Weather Widget** – See real-time weather for your location
-- ✅ **Daily To-Do List** – Plan and check off your tasks
-- 🧠 **Mood Tracker** – Reflect and log how you’re feeling
-- 🧘 **Quote of the Day** – Start your day inspired
-- 💾 **Local SQLite Storage** – Lightweight and easy to run
-- 🎨 **Responsive UI** – Clean layout with Bootstrap (or Tailwind)
-
----
-
-## 📸 Preview# 🌞 Daylit — Your Personal Daily Dashboard
-
-**Daylit** is a minimalist personal dashboard built with Flask.  
-It helps you stay emotionally aware, focused, and organized — all in one place.
-
-Track your **mood**, manage **to-dos**, check the **weather**, and get inspired with a **daily quote** — all in a calm, clean interface designed for clarity and presence.
+Track your **mood**, manage **to-dos**, check the **weather**, and get inspired with a **daily quote** — in a calm, clean interface.
 
 ---
 
 ## ✨ Features
 
-- 🌤️ **Weather Widget** – See real-time weather for your location
-- ✅ **Daily To-Do List** – Plan and check off your tasks
-- 🧠 **Mood Tracker** – Reflect and log how you’re feeling
-- 🧘 **Quote of the Day** – Start your day inspired
-- 💾 **Local SQLite Storage** – Lightweight and easy to run
-- 🎨 **Responsive UI** – Clean layout with Bootstrap (or Tailwind)
-
----
-
-## 📸 Preview
-
-> *Add a screenshot or GIF of the dashboard here once built*
+- 🌤️ Real-time weather updates  
+- ✅ Daily to-do list  
+- 🧠 Mood tracker with emoji + reflection  
+- 🧘 Daily inspirational quote  
+- 💾 SQLite database for local data  
+- 🎨 Responsive UI with Bootstrap or Tailwind
 
 ---
 
@@ -50,79 +24,72 @@ Track your **mood**, manage **to-dos**, check the **weather**, and get inspired 
 ```bash
 git clone https://github.com/your-username/daylit.git
 cd daylit
-2. Set Up a Virtual Environment (Optional but recommended)
-bash
-Copy
-Edit
+```
+
+### 2. (Optional) Create a Virtual Environment
+```bash
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-3. Install Dependencies
-bash
-Copy
-Edit
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
-4. Run the App
-bash
-Copy
-Edit
+```
+
+### 4. Run the App
+```bash
 flask run
-Then open http://127.0.0.1:5000 in your browser.
+```
 
-⚙️ Tech Stack
-Backend: Python, Flask
+Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 
-Frontend: HTML, CSS (Bootstrap or Tailwind)
+---
 
-Database: SQLite
+## 📁 Project Structure
 
-APIs: OpenWeather API, Quotes API
-
-🧱 Project Structure (sample)
-bash
-Copy
-Edit
+```
 daylit/
-│
-├── static/             # CSS, JS, assets
-├── templates/          # Jinja2 HTML templates
+├── static/             # CSS, JS, images
+├── templates/          # HTML templates
 │   ├── layout.html
 │   ├── index.html
 │   └── dashboard.html
-│
 ├── app.py              # Main Flask app
-├── models.py           # DB models (optional)
+├── config.py           # API keys & config
 ├── utils.py            # Helper functions
-├── config.py           # API keys and config
 ├── requirements.txt
 └── README.md
-🗒️ Future Features
-📈 Mood analytics (charts)
-
-🌓 Dark mode toggle
-
-🔔 Daily reminders / notifications
-
-📥 Journal export (PDF or Markdown)
-
-🧠 AI-powered mood reflections (GPT-based)
-
-📄 License
-This project is open-source and available under the MIT License.
-
-🤝 Contributing
-Pull requests are welcome! If you have suggestions for new features or improvements, feel free to open an issue.
-
-🌐 Live Demo
-Coming soon – or deploy to Render, Railway, or [Vercel (via Flask + serverless)]
-
-
-> *Add a screenshot or GIF of the dashboard here once built*
+```
 
 ---
 
-## 🚀 Getting Started
+## 🔮 Future Ideas
 
-### 1. Clone the Repo
-```bash
-git clone https://github.com/your-username/daylit.git
-cd daylit
+- 📈 Mood history & analytics  
+- 🌓 Dark mode toggle  
+- 🔔 Daily reminders (PWA notifications)  
+- 📥 Export moods or tasks as PDF  
+- 🤖 AI-assisted journaling (GPT)
+
+---
+
+## 🛠️ Tech Stack
+
+- Python + Flask  
+- SQLite  
+- HTML/CSS (Bootstrap or Tailwind)  
+- OpenWeather API  
+- Quotes API
+
+---
+
+## 📄 License
+
+MIT License • Feel free to fork and build on it.
+
+---
+
+## 👤 Author
+
+Built with ☕ and clarity by [@yourusername](https://github.com/yourusername)
