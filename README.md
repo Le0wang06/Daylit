@@ -22,7 +22,7 @@ Track your **mood**, manage **to-dos**, check the **weather**, and get inspired 
 
 ### 1. Clone the Repo
 ```bash
-git clone https://github.com/your-username/daylit.git
+git clone https://github.com/Le0wang06/daylit.git
 cd daylit
 ```
 
